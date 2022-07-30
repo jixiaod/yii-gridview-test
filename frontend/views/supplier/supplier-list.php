@@ -3,6 +3,7 @@ use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\grid\GridView;
 ?>
+
 <div id="select-all-alert" class="alert alert-warning alert-dismissible fade hidden fixed-bottom" role="alert">
     <strong>All 10 conversations on this page have been selected.</strong> 
     &nbsp&nbsp<a href="#" class="alert-link" id="select-all-button"><span id="button-text">Select all conversations that match this search</span></a>

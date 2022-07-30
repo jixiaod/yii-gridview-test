@@ -24,7 +24,7 @@ AppAsset::register($this);
 </head>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
-
+<!--
 <header>
     <?php
     NavBar::begin([
@@ -59,7 +59,7 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 </header>
-
+-->
 <main role="main" class="flex-shrink-0">
     <div class="container">
         <?= Breadcrumbs::widget([
